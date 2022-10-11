@@ -97,8 +97,9 @@ footer p {
 /* Main menu */
 .main-nav {
   width: 190px;
-  background-color: #C5C6C7;
+  background-color: #c5c6c7;
   border-radius: 20px;
+  margin: 25px 0;
   margin-left: 15px;
 }
 
@@ -110,7 +111,6 @@ footer p {
   justify-content: space-around;
 }
 
-
 .main-nav img {
   width: 50px;
   margin: 0px;
@@ -120,6 +120,7 @@ footer p {
   margin-left: 20px;
   font-weight: bold;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .navn {
