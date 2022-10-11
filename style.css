@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap");
+
 *,
 *::before,
 *::after {
@@ -11,11 +13,13 @@ body {
   background-image: url("images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  font-family: "Space Mono", monospace;
 }
 
 .logo {
   width: 85px;
   height: 80px;
+  padding-top: 12px;
 }
 nav {
   display: flex;
@@ -30,6 +34,7 @@ nav {
 }
 a {
   text-decoration: none;
+  color: inherit;
 }
 .links {
   display: flex;
