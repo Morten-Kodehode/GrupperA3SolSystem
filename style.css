@@ -1,9 +1,17 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 /* style */
 body {
   height: 100vh;
   background-image: url("images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+
 }
 
 .logo {
@@ -65,4 +73,22 @@ a {
   display: flex;
   flex-direction: column;
   gap: 10px;
+
+  height: 100vh;
+}
+
+/* footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #d9d9d9;
+}
+
+footer p {
+  font-size: 1.4rem;
+  padding: 5px;
+
 }
