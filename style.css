@@ -5,3 +5,42 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
 }
+
+/* Main menu */
+.main-nav {
+  width: 190px;
+  background-color: #C5C6C7;
+  border-radius: 20px;
+  margin-left: 15px;
+}
+
+.planets {
+  display: flex;
+  margin-left: 20px;
+  height: 500px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+.main-nav img {
+  width: 50px;
+  margin: 0px;
+}
+
+.main-nav span {
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navn {
+  height: 50px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.navn:hover {
+  color: blue;
+}
