@@ -79,6 +79,33 @@ a {
   gap: 10px;
 }
 
+/* Main page */
+
+main {
+  display: flex;
+}
+
+#main-page {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  background-color: #C5C6C7;
+  border-radius: 20px;
+  margin: 15px;
+}
+
+#main-page h1 {
+  margin: 20px;
+}
+
+#main-page img {
+  height: 200px;
+}
+
+#main-page p {
+  margin: 20px;
+}
+
 /* footer */
 footer {
   display: flex;
