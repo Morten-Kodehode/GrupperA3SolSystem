@@ -29,43 +29,42 @@
         </div>
       </nav>
     </header>
-    <main>
-      <section class="main-nav">
-        <div class="planets">
-          <div class="navn">
-            <img src="images/MERCURIO_ANGEL.svg" alt="Mercury" />
-            <span>Mercury</span>
-          </div>
-          <div class="navn">
-            <img src="images/venus-dan-gerhards-01.svg" alt="Venus" />
-            <span>Venus</span>
-          </div>
-          <div class="navn">
-            <img src="images/Earth.svg" alt="Earth" />
-            <span>Earth</span>
-          </div>
-          <div class="navn">
-            <img src="images/mars-dan-gerhards-01.svg" alt="Mars" />
-            <span>Mars</span>
-          </div>
-          <div class="navn">
-            <img src="images/jupiter-dan-gerhards-01.svg" alt="Jupiter" />
-            <span>Jupiter</span>
-          </div>
-          <div class="navn">
-            <img src="images/satu.svg" alt="Saturn" />
-            <span>Saturn</span>
-          </div>
-          <div class="navn">
-            <img src="images/Uranus2-by-Merlin2525.svg" alt="Uranus" />
-            <span>Uranus</span>
-          </div>
-          <div class="navn">
-            <img src="images/Neptuno.svg" alt="Neptune" />
-            <span>Neptune</span>
-          </div>
+    <!-- Contact form -->
+    <main class="contact">
+      <div class="contactContainer">
+        <div id="fullName">
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            class="inputStyle"
+            placeholder="Enter First Name..."
+          />
+          <input
+            type="text"
+            name="lastName"
+            id="lastName"
+            class="inputStyle"
+            placeholder="Enter Last Name..."
+          />
         </div>
-      </section>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="inputStyle"
+          placeholder="Enter Email..."
+        />
+        <textarea
+          name="comment"
+          id="comment"
+          cols="30"
+          rows="5"
+          placeholder="Enter your comment..."
+          class="inputStyle"
+        ></textarea>
+        <button type="submit" id="contactSubmit">Submit</button>
+      </div>
     </main>
     <footer>
       <p>&copy; Solsystem Gruppe A3</p>
