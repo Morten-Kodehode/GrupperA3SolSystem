@@ -89,9 +89,9 @@ main {
   width: 100%;
   height: 500px;
   text-align: center;
-  background-color: #C5C6C7;
+  background-color: #C5C6C780;
   border-radius: 20px;
-  margin: 15px;
+  margin: 25px;
 }
 
 #main-page h1 {
@@ -100,9 +100,18 @@ main {
 
 #main-page img {
   height: 200px;
+  border-radius: 50%;
 }
 
-#main-page p {
+#main-page .home-img {
+  border-radius: 20px;
+}
+
+#main-page .saturn {
+  border-radius: 20px;
+}
+
+#main-page article {
   margin: 20px;
 }
 
@@ -124,7 +133,7 @@ footer p {
 /* Main menu */
 .main-nav {
   width: 190px;
-  background-color: #c5c6c7;
+  background-color: #c5c6c780;
   border-radius: 20px;
   margin: 25px 0;
   margin-left: 15px;
