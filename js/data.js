@@ -1,7 +1,7 @@
 const planets = [
   {
     name: "Mercury",
-    image: "images/mercury.jpg",
+    image: "images/mercury.png",
     info: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
     laborum eum perferendis atque. Voluptatibus provident dolorem, minima
     ab exercitationem, molestiae mollitia in quo blanditiis eius, impedit
@@ -11,7 +11,7 @@ const planets = [
   },
   {
     name: "Venus",
-    image: "images/venus.jpg",
+    image: "images/venus.png",
     info: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
     laborum eum perferendis atque. Voluptatibus provident dolorem, minima
     ab exercitationem, molestiae mollitia in quo blanditiis eius, impedit
@@ -21,7 +21,7 @@ const planets = [
   },
   {
     name: "Earth",
-    image: "images/earth.jpg",
+    image: "images/earth.png",
     info: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
     laborum eum perferendis atque. Voluptatibus provident dolorem, minima
     ab exercitationem, molestiae mollitia in quo blanditiis eius, impedit
@@ -31,7 +31,7 @@ const planets = [
   },
   {
     name: "Mars",
-    image: "images/mars.jpg",
+    image: "images/mars.png",
     info: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
     laborum eum perferendis atque. Voluptatibus provident dolorem, minima
     ab exercitationem, molestiae mollitia in quo blanditiis eius, impedit
@@ -41,7 +41,7 @@ const planets = [
   },
   {
     name: "Jupiter",
-    image: "images/jupiter.jpg",
+    image: "images/jupiter.png",
     info: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
     laborum eum perferendis atque. Voluptatibus provident dolorem, minima
     ab exercitationem, molestiae mollitia in quo blanditiis eius, impedit
@@ -61,7 +61,7 @@ const planets = [
   },
   {
     name: "Uranus",
-    image: "images/uranus.jpg",
+    image: "images/uranus.png",
     info: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
     laborum eum perferendis atque. Voluptatibus provident dolorem, minima
     ab exercitationem, molestiae mollitia in quo blanditiis eius, impedit
@@ -71,7 +71,7 @@ const planets = [
   },
   {
     name: "Neptune",
-    image: "images/neptune.jpg",
+    image: "images/neptune.png",
     info: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
     laborum eum perferendis atque. Voluptatibus provident dolorem, minima
     ab exercitationem, molestiae mollitia in quo blanditiis eius, impedit
