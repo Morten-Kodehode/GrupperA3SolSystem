@@ -90,7 +90,7 @@ main {
   height: 500px;
   text-align: center;
 
-  background-color: #C5C6C780;
+  background-color: #c5c6c780;
 
   background-color: #c5c6c7;
 
@@ -104,7 +104,6 @@ main {
 
 #main-page img {
   height: 200px;
-  border-radius: 50%;
 }
 
 #main-page .home-img {
