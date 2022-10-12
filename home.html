@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/x-icon" href="images/planetlogo.svg" />
+    <script src="js/script.js" type="module" defer></script>
     <title>Sol System</title>
   </head>
   <body>
@@ -34,42 +35,46 @@
         <div class="planets">
           <div class="navn">
             <img src="images/MERCURIO_ANGEL.svg" alt="Mercury" />
-            <span>Mercury</span>
+            <span class="planetName">Mercury</span>
           </div>
           <div class="navn">
             <img src="images/venus-dan-gerhards-01.svg" alt="Venus" />
-            <span>Venus</span>
+            <span class="planetName">Venus</span>
           </div>
           <div class="navn">
             <img src="images/Earth.svg" alt="Earth" />
-            <span>Earth</span>
+            <span class="planetName">Earth</span>
           </div>
           <div class="navn">
             <img src="images/mars-dan-gerhards-01.svg" alt="Mars" />
-            <span>Mars</span>
+            <span class="planetName">Mars</span>
           </div>
           <div class="navn">
             <img src="images/jupiter-dan-gerhards-01.svg" alt="Jupiter" />
-            <span>Jupiter</span>
+            <span class="planetName">Jupiter</span>
           </div>
           <div class="navn">
             <img src="images/satu.svg" alt="Saturn" />
-            <span>Saturn</span>
+            <span class="planetName">Saturn</span>
           </div>
           <div class="navn">
             <img src="images/Uranus2-by-Merlin2525.svg" alt="Uranus" />
-            <span>Uranus</span>
+            <span class="planetName">Uranus</span>
           </div>
           <div class="navn">
             <img src="images/Neptuno.svg" alt="Neptune" />
-            <span>Neptune</span>
+            <span class="planetName">Neptune</span>
           </div>
         </div>
       </section>
       <section id="main-page">
-        <h1>The Solar System</h1>
-        <img src="images/Solar_System.jpg" alt="The Solar System" />
-        <p>
+        <h1 id="title">The Solar System</h1>
+        <img
+          src="images/Solar_System.jpg"
+          alt="The Solar System"
+          id="planet-img"
+        />
+        <p id="desc">
           The Solar System[c] is the gravitationally bound system of the Sun and
           the objects that orbit it. It formed 4.6 billion years ago from the
           gravitational collapse of a giant interstellar molecular cloud. The
