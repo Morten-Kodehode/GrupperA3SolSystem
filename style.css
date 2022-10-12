@@ -171,12 +171,21 @@ footer p {
   color: blue;
 }
 
-/* Contact form */
-.contact {
+/* Contact form and about-info*/
+.contact, .about {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 75vh;
+}
+
+.about {
+  color: whitesmoke
+}
+
+.about a {
+  color: #8FA2B9;
+  text-decoration: underline;
 }
 
 .contactContainer {
