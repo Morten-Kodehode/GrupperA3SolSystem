@@ -96,8 +96,15 @@ a {
 
 /* Main page */
 
-/* Put main menu and article side by side */
 main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Put main menu and article side by side */
+#mainDiv {
   display: flex;
 }
 
@@ -244,10 +251,10 @@ main {
 
 /* Footer */
 footer {
-  position: absolute;
+  /* position: absolute;
   right: 0;
   bottom: 0;
-  left: 0;
+  left: 0; */
   display: flex;
   flex-direction: column;
   justify-content: center;
