@@ -183,7 +183,8 @@ main {
 
 /* Contact form and about-info*/
 /* Placement of text */
-.contact, .about {
+.contact,
+.about {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -192,12 +193,12 @@ main {
 
 /* Text color for "About" text */
 .about {
-  color: whitesmoke
+  color: whitesmoke;
 }
 
 /* Text color for links in about text */
 .about a {
-  color: #8FA2B9;
+  color: #8fa2b9;
   text-decoration: underline;
 }
 
@@ -243,6 +244,10 @@ main {
 
 /* Footer */
 footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
