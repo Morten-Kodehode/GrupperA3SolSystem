@@ -97,22 +97,18 @@ main {
 }
 
 #main-page h1 {
-  margin: 20px;
+  margin: 20px auto 10px;
 }
 
 #main-page img {
   height: 200px;
 }
 
-#main-page .home-img {
+#main-page #planet-img {
   border-radius: 20px;
 }
 
-#main-page .saturn {
-  border-radius: 20px;
-}
-
-#main-page article {
+#desc {
   margin: 20px;
 }
 
