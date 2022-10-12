@@ -165,9 +165,13 @@ footer p {
 
 .navn {
   height: 50px;
-  width: 200px;
+  width: 160px;
   display: flex;
   align-items: center;
+}
+
+.navn:hover > img {
+  transform: scale(1.2);
 }
 
 .navn:hover {
