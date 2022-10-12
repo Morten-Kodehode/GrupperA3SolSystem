@@ -89,7 +89,11 @@ main {
   width: 100%;
   height: 500px;
   text-align: center;
+
+  background-color: #C5C6C780;
+
   background-color: #c5c6c7;
+
   border-radius: 20px;
   margin: 25px;
 }
@@ -100,9 +104,18 @@ main {
 
 #main-page img {
   height: 200px;
+  border-radius: 50%;
 }
 
-#main-page p {
+#main-page .home-img {
+  border-radius: 20px;
+}
+
+#main-page .saturn {
+  border-radius: 20px;
+}
+
+#main-page article {
   margin: 20px;
 }
 
@@ -124,7 +137,7 @@ footer p {
 /* Main menu */
 .main-nav {
   width: 190px;
-  background-color: #c5c6c7;
+  background-color: #c5c6c780;
   border-radius: 20px;
   margin: 25px 0;
   margin-left: 15px;
@@ -152,9 +165,13 @@ footer p {
 
 .navn {
   height: 50px;
-  width: 200px;
+  width: 160px;
   display: flex;
   align-items: center;
+}
+
+.navn:hover > img {
+  transform: scale(1.2);
 }
 
 .navn:hover {
