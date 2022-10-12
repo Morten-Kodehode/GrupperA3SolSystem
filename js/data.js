@@ -62,7 +62,7 @@ const planets = [
   },
   {
     name: "Saturn",
-    image: "images/saturn3.png",
+    image: "images/saturn.png",
     info: `Saturn, distinguished by its extensive ring system, has several similarities 
     to Jupiter, such as its atmospheric composition and magnetosphere. Although Saturn 
     has 60% of Jupiter's volume, it is less than a third as massive. Saturn 
