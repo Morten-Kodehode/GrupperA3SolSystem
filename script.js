@@ -2,7 +2,7 @@
 
 const articleArray = [
     `<h1>The Solar System</h1>
-    <img src="images/Solar_System.jpg" alt="The Solar System" />
+    <img class="home-img" src="images/Solar_System.jpg" alt="The Solar System" />
     <article>
       The Solar System[c] is the gravitationally bound system of the Sun and
       the objects that orbit it. It formed 4.6 billion years ago from the
